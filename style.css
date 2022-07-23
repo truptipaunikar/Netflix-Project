@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: black;
+    color: red;
+}
+.brandName{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px rgb(163, 13, 13);
+}
+.nav-right ul{
+    list-style: none;
+    display: flex;
+    /* padding: 20px; */
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.nav-right ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* margin: 10px 30px; */
+}
+#home{
+    font-size: 30px; 
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(home\ img.jpg);
+    height: 100vh;
+}
+.english{
+    border: white 1px solid;
+    padding: 5px 6px;
+    margin-right: 40px;
+    
+}
+.signin{
+    background-color: red;
+    padding: 5px 10px;
+}
+.homediv{
+    height: 100%;
+    
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50% -50%); */
+    background-color: rgba(50, 50, 50, 0.5);    
+}
+.homediv h1{
+     padding-top: 200px;
+
+}
+.homediv h3{
+    padding: 20px;
+}
+.homediv p{
+    padding: 20px;
+    font-size: 20px;
+}
+.display-flex{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 100px;
+    height: 80vh;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+    padding: 10px 20px;
+    border: 3px solid rgb(234, 33, 33);
+    color: white;
+    background-color: rgb(234, 33, 33);
+}
+#email{
+   padding: 10px 20px;
+   border: 3px solid white;
+   font-size: 30px;
+   border: 2px solid black;
+}
+#section-5{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 100px 350px;
+}
+#section-5 li{
+      margin: 10px;
+      padding: 10px 10px;
+      font-size: 30px;
+      background-color: rgba(41, 39, 39, 0.833);
+      
+}
+#section-5 ul{
+    padding: 40px 0px;
+    list-style: none;
+
+}
+#section-5 p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+.parentdiv{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-between;
+}
+#section-6{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    height: 60vh;
+}
+.parentdiv ul{
+    list-style: none;
+
+} 
+.parentdiv ul li{
+    font-size: 20px;
+    padding: 10px;
+}
+#section-6 h4{
+    padding-top: 80px;
+    font-size: 20px;
+}
+#section-6 p{
+    padding: 5px 10px;
+    font-size: 20px;
+}
